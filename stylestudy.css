@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(study.jpg.jpeg);
+    text-align: center;
+}
+
+header {
+    background: #da59cf;
+    color: rgb(54, 2, 2);
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 10px;
+    padding: 50px;
+}
+
+.add-event, .weekly-plan, .progress {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#week {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.day {
+    background: #ddd;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+progress {
+    width: 80%;
+    height: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background: #af29bb;
+    color: rgb(214, 206, 214);
+    padding: 10px;
+    
+}

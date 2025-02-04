@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>
+        <h1>Smart Study Planner</h1>
+    </header>
+    <link rel="stylesheet" href="stylestudy.css">
+    <script src="script4.js"></script>
+</head>
+<body>
+
+    
+   <div> <form id="taskForm">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" required>
+
+        <label for="task">Task:</label>
+        <input type="text" id="task" required>
+
+        <label for="time">Time:</label>
+        <input type="datetime-local" id="time" required>
+
+        
+        <button type="button" onclick="addTask()">Add Task</button></div>
+    </form>
+    <div id="taskList">
+        <div id="monday" class="day"></div>
+        <div id="tuesday" class="day"></div>
+        <div id="wednesday" class="day"></div>
+        <div id="thursday" class="day"></div>
+        <div id="friday" class="day"></div>
+        <div id="saturday" class="day"></div>
+        <div id="sunday" class="day"></div>
+    </div>
+    <progress id="progressBar" value="0" max="100"></progress>
+    <span id="progressText">0% completed</span>
+
+    <button onclick="setAlarm()">Set Alarm for Next Task</button>
+
+    <script src="scripts.js"></script>
+    <footer>
+        <p>@2025 Nexaura Study Planner - Stay Focused<3</p>
+    </footer>
+
+</body>
+</html>
